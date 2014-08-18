@@ -1,11 +1,4 @@
 ﻿{
-  "name": "carttrac-ng-gulp",
-  "version": "0.0.1",
-  "private": true,
-  "author": {
-    "name": "Thomas Gilgenast",
-    "url": "http://gilgi.org"
-  },
   "devDependencies": {
     "express": "4.8.4",
     "gulp": "3.8.7",
