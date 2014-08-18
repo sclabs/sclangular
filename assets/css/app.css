@@ -1,0 +1,6 @@
+li {
+  color: green;
+}
+.someModule li {
+  color: orange;
+}

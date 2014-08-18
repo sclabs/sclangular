@@ -1,0 +1,1 @@
+angular.module('app').value('appServerURL', 'http://localhost:3000');
