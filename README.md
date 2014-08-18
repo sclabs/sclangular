@@ -11,22 +11,22 @@ Quick Start
 3. Install gulp globally if you haven't yet with `npm install -g gulp`.
 4. Install sclangular's dependencies with `npm install`.
 5. Run `gulp`.
-6. Browse to `http://localhost:3000/`
+6. Browse to http://localhost:3000/.
 
 Features
 --------
 
 - JS and CSS concatenation and minification with sourcemaps for easy debugging.
 - Partials can live next to their modules in `src/` but get moved to `assets/partials/` for deployment.
-- Built-in Express server to server the app via HTTP.
+- Built-in Express server to serve the app via HTTP.
   - Pre-configured for `html5mode`-style server-side URL rewriting.
-  - Livereload enabled out of the box. Save a change to any file in the project and watch the magic.
+  - Livereload enabled out of the box. Save a change to any file in the project and watch the magic happen.
   - Can be used to mimic RESTful backend functionality for easy frontend development by serving JSON files from `server/` on routes defined in `server.js`.
   
 Detailed Explanation
 --------------------
 
-`index.html`: The shell page for the AngularJS app. The server-side URL rewriting serves this page for all non-static file requests.  
+`index.html`: The shell page for the AngularJS app. The server-side URL rewriting serves this page for all requests that aren't static files or faux-backend calls.
 `gulpfile.js`: The gulpfile. All the magic happens here.  
 `server.js`: The Express dev server.  
 `src/`: This is where our code goes.  
@@ -39,7 +39,7 @@ Detailed Explanation
 `assets/`: The directory that stores the site assets. This directory gets populated automatically with the production-ready concatenated and minified files. Its contents are automatically served through `express.static()` on the development server.  
 `assets/js/app.js`: The concatenated and minified JS for the app.  
 `assets/css/app.css`: The concatenated and minified CSS for the app.  
-`assets/partials/`: Partials get collected from all the modules and dropped here, following the directory structure of `src/`.  
+`assets/partials/`: Partials get collected from all the modules and dropped here, following the directory structure of `src/` to avoid name conflicts.  
 `server/`: You can put JSON documents or other files to be served by the Express development server to mimic the functionality of a backend you haven't written yet.
 
 Philosophy
@@ -49,7 +49,7 @@ Yes, this is Yet Another Angular Boilerplate Template. But we have opinions just
 
 ### Simplicity
 
-Understanding sclangular (to the point at which you feel comfortable tweaking/rewriting parts of it to reflect your own opinions) only really requires that you have a super basic understanding of two simple technologies - gulp and Express. If you have "Hello, World!" level experience with these two tools, you should have no problems being able to see what's going on in `gulpfile.js` and `server.js`.
+Understanding sclangular (to the point at which you feel comfortable tweaking/rewriting parts of it to reflect your own opinions) only really requires that you have a super basic understanding of two simple technologies - gulp and Express. If you have "Hello, World!"-level experience with these two tools, you should have no problems being able to see what's going on in `gulpfile.js` and `server.js`.
 
 ### Submodule Hierarchy
 
