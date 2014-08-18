@@ -45,7 +45,7 @@ Detailed Explanation
 Philosophy
 ----------
 
-Yes, this is Yet Another Angular Boilerplate Template. But we have opinions just like everyone else. We're mainly interested in two things.
+Yes, this is Yet Another Angular Boilerplate Template. But we have opinions just like everyone else. We're mainly interested in three things.
 
 ### Simplicity
 
@@ -54,6 +54,12 @@ Understanding sclangular (to the point at which you feel comfortable tweaking/re
 ### Submodule Hierarchy
 
 Angular's module system is great. We want to use it. We also want to lay out our project structure so that each module gets its own folder and each submodule gets a subfolder. This keeps the files organized by functionality, which is good because that's how we tend to work on them.
+
+### Convenience and brevity
+
+Convenience means typing four letters into the command line and having everything work automatically from there. This includes app rebuilding, server restarting, and browser livereloading.
+
+Brevity means not having to retype things repeatedly and making the framework infer things from the directory structure instead of having it explicitly told what to do by the code.
 
 Nice things we would like to have aka TODO
 ------------------------------------------
