@@ -3,7 +3,7 @@ sclangular
 
 sclabs flavored AngularJS seasoned with gulp and Express
 
-Quick Start
+Quick start
 -----------
 
 1. If you don't have Node.js yet, install it from http://nodejs.org/.
@@ -23,7 +23,7 @@ Features
   - Livereload enabled out of the box. Save a change to any file in the project and watch the magic happen.
   - Can be used to mimic RESTful backend functionality for easy frontend development by serving JSON files from `server/` on routes defined in `server.js`.
   
-Detailed Explanation
+Detailed explanation
 --------------------
 
 `index.html`: The shell page for the AngularJS app. The server-side URL rewriting serves this page for all requests that aren't static files or faux-backend calls.
@@ -51,7 +51,7 @@ Yes, this is Yet Another Angular Boilerplate Template. But we have opinions just
 
 Understanding sclangular (to the point at which you feel comfortable tweaking/rewriting parts of it to reflect your own opinions) only really requires that you have a super basic understanding of two simple technologies - gulp and Express. If you have "Hello, World!"-level experience with these two tools, you should have no problems being able to see what's going on in `gulpfile.js` and `server.js`.
 
-### Submodule Hierarchy
+### Submodule hierarchy
 
 Angular's module system is great. We want to use it. We also want to lay out our project structure so that each module gets its own folder and each submodule gets a subfolder. This keeps the files organized by functionality, which is good because that's how we tend to work on them.
 
