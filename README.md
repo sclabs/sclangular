@@ -59,7 +59,7 @@ Angular's module system is great. We want to use it. We also want to lay out our
 
 Convenience means typing four letters into the command line and having everything work automatically from there. This includes app rebuilding, server restarting, and browser livereloading.
 
-Brevity means not having to retype things repeatedly and making the framework infer things from the directory structure instead of having it explicitly told what to do by the code.
+Brevity means not having to retype things repeatedly and making the framework infer things from the directory structure instead of having it be explicitly told what to do by the code.
 
 Nice things we would like to have aka TODO
 ------------------------------------------
