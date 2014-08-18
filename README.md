@@ -11,7 +11,7 @@ Quick Start
 3. Install gulp globally if you haven't yet with `npm install -g gulp`.
 4. Install sclangular's dependencies with `npm install`.
 5. Run `gulp`.
-6. Browse to http://localhost:3000/.
+6. Browse to [http://localhost:3000/](http://localhost:3000/).
 
 Features
 --------
