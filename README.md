@@ -64,5 +64,8 @@ Brevity means not having to retype things repeatedly and making the framework in
 Nice things we would like to have aka TODO
 ------------------------------------------
 
-- Angular modules should automatically depend on the modules in the subdirectories. Sounds like a job for gulp.
+- Automatic dependency injection for Angular modules.
 - Routing that doesn't suck.
+- Triple-autoscoping CSS.
+- Separate gulp task for production deployment that skips the sourcemaps.
+- Easy toggling between `html5mode` and hashbang-style URLs.
